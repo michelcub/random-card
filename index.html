@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Random card</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer type="module" src="./app.js"></script>
+</head>
+<body>
+<section  class="w-screen h-screen bg-green-500">
+    <h1 class="mt-10 mx-auto w-80 font-bold text-5xl">Random Card</h1>
+    <div>
+        <div class="w-100 flex justify-center mt-10 gap-4 items-center">
+            <label for="inputWidth">Width</label>
+            <input class="rounded p-2" id="inputWidth" name="selectWidth" type="text" placeholder="20 rem">
+            <label for="inputHeigth">Heigth</label>
+            <input class="rounded p-2" id="inputHeigth" name="selectHeigth" type="text" placeholder="25 rem">
+        </div>
+        <div class="flex justify-center mt-4 ">
+            <button id="btnNewCard" class=" border rounded p-2 hover:bg-green-200">New Card</button>
+        </div>
+    </div>
+    <div id="app">
+
+    </div>
+
+
+</section>
+</body>
+</html>
